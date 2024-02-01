@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#seção1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#seção1_textos {
+    background-color: brown;
+    max-width: 400px;
+}

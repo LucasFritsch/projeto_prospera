@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* ignorar, só para 700px
+#seção1_textos {
+    padding: 5px 20px;
+    text-align: start;
+}
+*/
+
+/* Menu de Navegação */
+nav {
+    font-size: 1.2em;
+}
+
+nav a {
+    padding: 10px 30px;
+}
+
+/* Seção 1 */
+#seção1_textos {
+    max-width: 550px;
+}
+
+#seção1_textos h1 {
+    font-size: 1.7em;
+}
+
+#seção1_textos p {
+    font-size: 1.5em;
+    margin: 10px auto 0px;
+}
+
+/* Seção 2 */
+
+    /* Lista da seção 2 */
+    #seção2_lista ul {
+        margin: 20px auto 25px;
+        max-width: 450px;
+        padding: 10px 30px;
+    }
+
+        #seção2_lista li {
+            column-gap: 10px; 
+        }
+    
+    /* Fotos de relatos da seção 2 */
+    #seção2_relatos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        }
+
+    #seção2_relatos img {
+        max-width: 50%;
+    }
+
+    #seção2_relatos hr {
+        display: none;
+    }
+
+/* Seção 3 */
+    
+    /* Lista da seção 3 */
+    #seção3 ul {
+        margin: 0px auto;
+        max-width: 550px;
+    }
+
+/* Seção 6 */
+    #seção6 > h2 {
+        margin: 15px auto;
+    }
+
+    #seção6 p {
+        margin: 20px auto;
+        max-width: 600px;
+        text-align: center;
+    }
+
+/* Seção 7 */
+    #seção7 p {
+        line-height: 25px;
+        max-width: 750px;
+    }
+
+    #seção7 h4 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 25px;
+    }
+
+    #seção7_contatos {
+        flex-direction: row;
+    }
+
+
